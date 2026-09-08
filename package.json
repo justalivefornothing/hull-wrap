@@ -1,0 +1,23 @@
+{
+  "name": "hull-wrap",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Scatter points on a chalkboard canvas and watch Graham scan, Jarvis march, and monotone chain wrap them, each step drawn as chalk strokes.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0"
+  },
+  "dependencies": {
+    "@fontsource/caveat": "^5.3.0",
+    "@fontsource/nunito-sans": "^5.3.0"
+  }
+}
